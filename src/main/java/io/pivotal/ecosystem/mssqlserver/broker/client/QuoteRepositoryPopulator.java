@@ -51,6 +51,7 @@ public class QuoteRepositoryPopulator implements ApplicationListener<ContextRefr
                     new TypeReference<List<Quote>>() {
                     });
             repository.saveAll(q);
+
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
