@@ -4,6 +4,6 @@ applications:
   memory: 1G
   instances: 1
   path: build/libs/client-example.jar
-  services: [ mssqldb ]
+  services: [ sql-test ]
   env:
     SPRING_PROFILES_ACTIVE: cloud
